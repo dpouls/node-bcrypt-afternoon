@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 import Header from './Components/Header/Header';
 import Container from './Components/Container/Container';
+import AddTreasure from './Components/AddTreasure';
 
 class App extends Component {
   constructor() {
@@ -14,7 +15,7 @@ class App extends Component {
 
   updateUser(user) {
     this.setState({
-      user,
+      user
     });
   }
 
@@ -24,6 +25,7 @@ class App extends Component {
       <div className="App">
         <Header user={user} updateUser={this.updateUser} />
         <Container user={user} />
+  
       </div>
     );
   }
