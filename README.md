@@ -2,11 +2,7 @@
 
 # Bcrypt Dragon's Lair
 
-The purpose of this project is to implement secure password authentication using the Bcrypt library. Bcrypt is used to salt and hash user passwords, so that we avoid storing plain-text passwords in the database. We will also practice front to back data transmission, from axios calls on the front-end, to express endpoints on the server, to SQL commands in the database. 
-
-# Example
-
-<img src="./readme_assets/demo.gif" alt="demo gif">
+The pgif" alt="demo gif">
 
 ## Setup
 
